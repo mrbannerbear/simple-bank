@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="garden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | BSB Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/f49b128aef.js" crossorigin="anonymous"></script>
+    <style>
+        
+    </style>
+</head>
+<body class="font-[poppins] text-green-900">
+
+    <main>
+        <section id="login-page" class="w-3/5 py-12 mx-auto mt-28  border-green-800 border-4 rounded-lg">
+            <h1 class="text-center text-4xl font-semibold">Please Login</h1>
+
+            <div id="form" class="mt-5 w-full mx-auto text-center">
+                <input type="email" placeholder="Email" name="" id="email" class="my-2 pl-3 py-3 w-1/2 rounded-lg outline-none"> <br>
+                <p id="error1" class="text-red-700 text-sm"></p>
+                <span class="relative">
+                    <input type="password" placeholder="Password" name="" id="password" class="my-2 pl-3 py-3 w-1/2 rounded-lg outline-none"> <button class="absolute right-3 -top-1" id="eye">
+                        <i class="far fa-eye text-xl"></i></button>
+                </span>
+                <br> 
+                <p  id="error2" class="text-red-700 text-sm"></p>
+                <button class="btn mt-3 btn-active text-white hover:bg-green-800 bg-green-800 active:bg-green-900" id="loginBtn">Login</button>
+            </div>
+
+            <div><p class="text-xs text-center mt-10">Don't have an account yet? <br> <a class="font-semibold hover:underline" href="">Make an account</a> online with no initial deposit!</p></div>
+        </section>
+
+       
+
+    </main>
+   
+    <script src="login.js"></script>
+</body>
+</html>
